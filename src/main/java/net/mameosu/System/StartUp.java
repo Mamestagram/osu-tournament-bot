@@ -1,15 +1,11 @@
 package net.mameosu.System;
 
-import net.mameosu.Tool;
+import net.mameosu.Discord;
 
-public class StartUp extends Tool {
-
-    String key;
-    String token;
+public class StartUp extends Discord {
 
     public StartUp(String key, String token) {
-        this.key = key;
-        this.token = token;
+        super(key, token);
     }
 
 

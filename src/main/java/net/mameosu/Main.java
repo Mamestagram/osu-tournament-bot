@@ -4,7 +4,7 @@ import net.mameosu.System.StartUp;
 
 import java.util.Scanner;
 
-public class Main extends Tool {
+public class Main {
     public static void main(String[] args) {
 
         String key;
