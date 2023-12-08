@@ -1,12 +1,16 @@
 package net.mameosu.System;
 
-import net.mameosu.Discord;
+public class StartUp {
 
-public class StartUp extends Discord {
+    private String key, token;
 
     public StartUp(String key, String token) {
-        super(key, token);
+        this.key = key;
+        this.token = token;
     }
 
+    private void CheckAPIKey(String key) {
 
+
+    }
 }

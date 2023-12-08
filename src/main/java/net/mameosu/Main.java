@@ -11,12 +11,13 @@ public class Main {
         String token;
 
         Scanner sc = new Scanner(System.in);
+        StartUp startUp;
 
         System.out.println("osu!のapiキーを入力してください");
         key = sc.next();
         System.out.println("discord botのtokenを入力してください");
         token = sc.next();
 
-        StartUp startUp = new StartUp(key, token);
+        startUp = new StartUp(key, token);
     }
 }
